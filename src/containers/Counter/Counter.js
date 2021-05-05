@@ -2,6 +2,7 @@ import React from 'react'
 
 import CounterControl from '../../components/CounterControl/CounterControl';
 import CounterOutput from '../../components/CounterOutput/CounterOutput';
+import Persiantest from '../../components/CounterControl/persianTools'
 import {connect} from 'react-redux';
 
 class Counter extends React.Component {
@@ -62,6 +63,7 @@ class Counter extends React.Component {
           return<p key={item}>{item}</p>
         })}
         </div>
+        <Persiantest />
       </div>
     )
   }
